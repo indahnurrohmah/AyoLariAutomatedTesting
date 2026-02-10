@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AyoLari Automation Suite">
+
+    <listeners>
+        <listener class-name="tests.utils.TestListener" />
+    </listeners>
+    
+    <test name="Flow Tests">
+        <classes>
+            <class name="tests.creation.positive.TargetTest" />
+            <class name="tests.creation.positive.ProfileTest" />
+        </classes>
+    </test>
+</suite>
+
