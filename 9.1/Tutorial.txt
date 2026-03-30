@@ -1,0 +1,26 @@
+Sebelum tes di-run
+
+Test Challenge
+1. Buat Challenge Private dengan nama “Lari Private Accept” dan “Lari Private Reject” (jika challenge dengan nama ini sudah ada, tidak perlu dibuat, tetapi pastikan pesertanya kosong) di akun yang akan dites
+2. Siapkan 3 akun lain untuk melakukan permintaan masuk ke 2 tes tersebut 
+3. Hapus semua pesan ke nomor tujuan share, saat ini ke (Anda)
+4. Hapus angka dan underscore di username
+
+Profile Test
+1. Ganti informasi profile sehingga berat badan tidak sama dengan 70, tinngi badan tidak sama dengan 175, golongan darah tidak sama dengan AB, dan jenis kelamin tidak sama dengan laki-lai
+
+TestAktifitas
+1. Edit manual card aktifitas yang record di app ayolari di riwayat lari menjadi TEST RECORD AYOLARI. pastikan unik ya, hasil edit nama baru yg sebelumnya juga klo bisa diganti (biar ga bingung)
+2. Edit manual card aktifitas yang record di smartwatch di riwayat lari menjadi TEST RECORD SYNC SMARTWATCH. pastikan unik ya, hasil edit nama baru yg sebelumnya juga klo bisa diganti (biar ga bingung)
+
+TestBergabungChallenge
+Pastikan akun tidak mengikuti challenge Fun for health dan Lari 7003
+
+Saat Run
+
+Tes akan berhenti di tengah run untuk menunggu penerimaan di challenge Lari 7003
+Muncul popup windows untuk menanyakan apakah tester sudah melakukan penerimaan secara manual 
+jika sudah, pilih ya, lalu tes akan berlanjut.
+
+
+
