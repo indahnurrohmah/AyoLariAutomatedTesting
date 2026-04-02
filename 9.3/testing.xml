@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AyoLari Automation Suite">
+
+    <listeners>
+        <listener class-name="tests.utils.TestListener" />
+    </listeners>
+    
+    <test name="Flow Tests">
+        <classes> 
+            <class name="tests.flow.positive.TestSyaratPrivasi" />
+            <class name="tests.creation.positive.profile.ProfileTest" />
+            <class name="tests.creation.positive.target.SetTargetTest" />
+            <class name="tests.flow.positive.TestBerandaChallenge" />
+            <class name="tests.flow.positive.TestHalamanChallenge" />
+            <class name="tests.creation.positive.challenge.ChallengeTest" />
+            <class name="tests.flow.positive.TestJoinChallenge" />
+            <class name="tests.creation.positive.challenge.AcceptTest" />
+            <class name="tests.flow.positive.TestTotalLariHarian" />
+            <class name="tests.creation.positive.target.ResetTargetTest" />
+            <class name="tests.flow.positive.TestAktifitas" />
+            <class name="tests.flow.positive.TestProfile" />
+            <class name="tests.flow.positive.TestLeaderboard" />
+            <class name="tests.flow.positive.TestReward" /> 
+            <class name="tests.creation.negative.profile.ProfileTest" />
+            <class name="tests.creation.negative.challenge.ChallengeTest" />
+            <class name="tests.flow.negative.TestBerandaChallenge" />
+            <class name="tests.flow.negative.TestChallenge" />
+        </classes>
+    </test>
+</suite>
