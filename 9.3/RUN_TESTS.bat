@@ -4,8 +4,8 @@ echo Starting Automation...
 :: Create report folder if missing
 if not exist "test-output" mkdir test-output
 
-:: Run the JAR
+:: Run the JAR with 4GB of RAM allocated
 :: We explicitly tell it to use 'testing.xml' here!
-java -jar AutomationApp.jar testing.xml -d test-output
+java -Xmx4g -jar AutomationApp.jar testing.xml -d test-output
 
 pause
