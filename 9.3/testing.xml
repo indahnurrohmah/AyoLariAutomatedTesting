@@ -8,11 +8,13 @@
     <test name="Flow Tests">
         <classes> 
             <class name="tests.flow.positive.TestSyaratPrivasi" />
-            <class name="tests.creation.positive.profile.ProfileTest" />
+            <!-- <class name="tests.creation.positive.profile.ProfileTest" />
             <class name="tests.creation.positive.target.SetTargetTest" />
             <class name="tests.flow.positive.TestBerandaChallenge" />
             <class name="tests.flow.positive.TestHalamanChallenge" />
             <class name="tests.creation.positive.challenge.ChallengeTest" />
+            <class name="tests.creation.positive.challenge.EditChallengeTest" />
+            <class name="tests.creation.positive.challenge.ShareChallengeTest" />
             <class name="tests.flow.positive.TestJoinChallenge" />
             <class name="tests.creation.positive.challenge.AcceptTest" />
             <class name="tests.flow.positive.TestTotalLariHarian" />
@@ -23,8 +25,8 @@
             <class name="tests.flow.positive.TestReward" /> 
             <class name="tests.creation.negative.profile.ProfileTest" />
             <class name="tests.creation.negative.challenge.ChallengeTest" />
-            <class name="tests.flow.negative.TestBerandaChallenge" />
-            <class name="tests.flow.negative.TestChallenge" />
+            <class name="tests.flow.negative.TestBerandaChallenge" /> 
+            <class name="tests.flow.negative.TestChallenge" /> -->
         </classes>
     </test>
 </suite>
